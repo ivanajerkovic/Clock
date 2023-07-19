@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Clock</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="clock">
+                <div id="clock-hands">
+                    <div class="circle circle-sec" id="second"><span></span></i></div>
+                    <div class="circle circle-min" id="minute"><span></span></i></div>
+                    <div class="circle circle-hour" id="hour"><span></span></i></div>
+                </div>
+                <div id="clock-numbers">
+                    <div class="number" style="--num:1;"><span>1</span></div>
+                    <div class="number" style="--num:2;"><span>2</span></div>
+                    <div class="number" style="--num:3;"><span>3</span></div>
+                    <div class="number" style="--num:4;"><span>4</span></div>
+                    <div class="number" style="--num:5;"><span>5</span></div>
+                    <div class="number" style="--num:6;"><span>6</span></div>
+                    <div class="number" style="--num:7;"><span>7</span></div>
+                    <div class="number" style="--num:8;"><span>8</span></div>
+                    <div class="number" style="--num:9;"><span>9</span></div>
+                    <div class="number" style="--num:10;"><span>10</span></div>
+                    <div class="number" style="--num:11;"><span>11</span></div>
+                    <div class="number" style="--num:12;"><span>12</span></div>
+                </div>
+            </div>
+
+            <!-- digital clock -->
+            <div id="time">
+                <div id="hours"></div><span class="dots">:</span>
+                <div id="minutes"></div><span class="dots">:</span>
+                <div id="seconds"></div>
+                <div id="ampm"></div>
+            </div>
+        </div>
+        <script src="src.js"></script>
+    </body>
+</html>
